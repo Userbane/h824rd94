@@ -1,0 +1,5 @@
+TODO:
+----Get the content to scale witdh the viewport. (done)
+----Use the second script file to alter the items in html.
+---- find out why innerhtml of country is null.(done)
+----get the background to appear with the corrosponding weather.

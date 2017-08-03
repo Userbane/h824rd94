@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Maven+Pro:700|Noticia+Text:700|Open+Sans:600|Oswald:700');
+
+html body{
+    /* background: #133; */
+    text-align: center;
+    margin:0 auto;
+    float:none;
+    max-width: auto; 
+   
+}
+.item{
+    color: #fff;
+     font-family: 'maven pro'; 
+     animation-name: fadeIn;
+     animation-duration: 1.5s;
+
+}
+    @keyframes fadeIn{
+        0%{
+            opacity: 0;
+        }
+        45%{
+            opacity: 0;
+        }
+        100%{
+            opacity: 100%;
+        }
+    }
+#country{
+    display:inline-block;
+    font-size: 40px;
+    margin: 0px 0px 15px 0px;
+}
+.info{
+    text-align: center;
+    top:37%;
+    left:39%;
+    position:absolute;
+    transform-origin: 50% 50%;
+    
+    
+}
+#elem{
+    margin: 10px 0px 0px 0px;
+    font-size: 32px;
+}
+#temp::after{
+    content: '°C';
+}
+#temp{
+    font-size: 30px;
+}
+ 
+.cloud{
+    background-image: url('https://static.pexels.com/photos/158163/clouds-cloudporn-weather-lookup-158163.jpeg');
+    background-repeat: no-repeat;
+    width: auto;
+    height: auto;
+}
+.rain{
+    background-image: url('https://s-media-cache-ak0.pinimg.com/600x315/87/e4/08/87e408833616a146d78d2b6bd5a33409.jpg');
+    background-repeat: no-repeat;
+    width: auto;
+    height: auto;
+}
+.clear{
+    background-image: url('http://allswalls.com/images/clear-sky-wallpaper-3.jpg');
+    background-repeat: no-repeat;
+    width: auto;
+    height: auto;
+}
+
