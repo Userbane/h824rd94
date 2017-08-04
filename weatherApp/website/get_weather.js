@@ -4,10 +4,10 @@ window.onload = function(){
      var w = document.getElementById('elem');
      var t = document.getElementById('temp');
      var fahrenheit = new Boolean(false);
-        var getClouds =  /clouds/g,
-            getRain = /rain/g,
-            getSunny = /sunny/g,
-            body = document.getElementsByClassName('body')[0] ;
+     var getClouds =  /Clouds/gi,
+        getRain = /rain/gi,
+        getSunny = /sunny/gi,
+        body = document.getElementsByClassName('body')[0] ;
 //setting up the XMLHttpRequest separatly from the actual request.
     var getItem = function(){
     this.get = function(theUrl, callback) {
@@ -61,11 +61,11 @@ window.onload = function(){
             })
         }
     //setting HTML to values
-    function setValues(con, temp, weather, city, maindes){
+    function setValues(con, temp, weather, city, maindes, body){
         c.innerHTML = city + ',' +' '+ con;
         w.innerHTML = weather;
         t.innerHTML = temp;
-        var  cl=  getClouds.test(maindes), rain = getRain.test(maindes), clear = getSunny.test(maindes);
+        var  cl =  getClouds.test(maindes), rain = getRain.test(maindes), clear = getSunny.test(maindes);
         switch(cl, rain, clear){
             case cl == true: 
             body.className += ' cloud';

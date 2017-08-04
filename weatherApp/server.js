@@ -20,6 +20,6 @@ require('./app/routes')(app, database);
 
 const port = 8000;
 app.listen(port, function(){
-    console.log("we are live on port:" +" "+port);
+    console.log("Server has started on port:" +" "+port);
 })
 })
