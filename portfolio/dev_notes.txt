@@ -1,5 +1,7 @@
+DEV-START = (04/08/2017)
 TODO:
-----Make the nav card fullscreen when the page is fully scrolled to the top.
+----Make the nav card fullscreen when the page is fully scrolled to the top. (completed)
 ----Find a solution to getting the script to constantly iterate over the height of the webpage,
-        without destroying performance.
+        without destroying performance. (completed)
+----
     
